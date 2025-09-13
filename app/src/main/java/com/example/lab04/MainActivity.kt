@@ -52,7 +52,7 @@ fun GreetingWithButtonAndInput(modifier: Modifier = Modifier) {
             onClick = { if (input.isNotBlank()) name = input },
             modifier = Modifier.padding(top = 8.dp)
         ) {
-            Text("Establecer nombre")
+            Text("Establecer nombre rama nueva")
         }
     }
 }
