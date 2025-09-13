@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun GreetingWithButtonAndInput(modifier: Modifier = Modifier) {
-    var name by remember { mutableStateOf("Brendan") }
+    var name by remember { mutableStateOf("nueva rama") }
     var input by remember { mutableStateOf("") }
 
     Column(modifier = modifier.padding(16.dp)) {
@@ -52,7 +52,7 @@ fun GreetingWithButtonAndInput(modifier: Modifier = Modifier) {
             onClick = { if (input.isNotBlank()) name = input },
             modifier = Modifier.padding(top = 8.dp)
         ) {
-            Text("Establecer nombre")
+            Text("Establecer nombre nueva rama")
         }
     }
 }
